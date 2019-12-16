@@ -1,14 +1,3 @@
-from collections import namedtuple
-
-a = []
-lines = []
-
-with open("logs/nginx/access.log.1", "r") as f:
-    for x in f.readlines():
-        current_line = {}
-        splitline = x.split(" ")
-        current_line["ip"] = splitline[0]
-        lines.append(current_line)
-        a.append(splitline)
-
-print(a[1])
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6f44945a8cb988a3d90a2012f6b063470fa9f76c2006ce2576dc79822276337
+size 308

@@ -1,20 +1,3 @@
-from collections import namedtuple
-import sys
-
-x = 2
-
-class Potato:
-
-    def __init__(self, a, b, c):
-        self.a = a
-        self.b = b
-        self.c = c
-
-a = {"a": 1, "b": 2, "c": 3}
-b = Potato(1, 2, 3)
-
-print(sys.getsizeof(a, x))
-print(sys.getsizeof(b, x))
-
-print(b.a)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2716e9aaa2ba90397a799f2f5a542805e98b07541f8ccaa2c6d1e8b24af32156
+size 277
