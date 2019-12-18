@@ -11,7 +11,7 @@ Welcome to infosec's documentation!
    :caption: Contents:
 
    wireshark
-
+   nmap
 
 
 Indices and tables
