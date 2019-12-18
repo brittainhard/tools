@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'CTF'
+project = 'Infosec Notes'
 copyright = '2019, Brittain Hard'
 author = 'Brittain Hard'
 

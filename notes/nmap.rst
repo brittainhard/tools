@@ -11,4 +11,4 @@ all the other devices. Simple enough.
 
 I'm not sure what happens if you try to do /16 when the subnet is /24, though.
 
-see :ref:`wireshark`
+see :ref:`On Capturing All Traffic`
