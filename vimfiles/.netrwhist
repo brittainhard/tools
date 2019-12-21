@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/brittain/.vim'
+let g:netrw_dirhist_2='/home/brittain/Documents/uif/uif'
+let g:netrw_dirhist_3='/home/brittain/Documents/pentesting/django/src/src'
+let g:netrw_dirhist_4='/home/brittain/Documents/m/m'
+let g:netrw_dirhist_5='/home/brittain/Documents/jenk'
+let g:netrw_dirhist_6='/home/brittain/Documents/pentesting/hacker1ctf'
+let g:netrw_dirhist_7='/etc/filebeat'

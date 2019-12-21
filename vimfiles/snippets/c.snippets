@@ -1,0 +1,18 @@
+snippet main
+	int
+	main(int argc, char *argv[])
+	{
+	    ${0}
+	    return 0;
+	}
+
+snippet inc
+	#include <${1:stdio}.h>
+
+snippet ndef
+	#ifndef $1
+	#define ${1:SYMBOL} ${2:value}
+	#endif /* ifndef $1 */
+
+snippet Inc
+	#include "${1:`vim_snippets#Filename("$1.h")`}"
