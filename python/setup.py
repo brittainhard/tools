@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="brittainhard-cookiecutter-package", # Replace with your own username
+    name="mytools",
     version="0.0.1",
     author="Brittain Hard",
     author_email="brittainhard@gmail.com",
-    description="A small example package",
+    description="Package containing some useful code segments that I want to keep as an easily-installed package.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/brittainhard/sampleproject",
