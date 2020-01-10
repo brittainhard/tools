@@ -3,3 +3,4 @@ _build
 *.so
 *.pyc
 __pycache__
+tags
