@@ -8,10 +8,10 @@ setuptools.setup(
     version="0.0.1",
     author="Brittain Hard",
     author_email="brittainhard@gmail.com",
-    description="Package containing some useful code segments that I want to keep as an easily-installed package.",
+    description="Package containing some useful and not-so-useful code segments that I want to keep as an easily-installed package.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/brittainhard/sampleproject",
+    url="https://github.com/brittainhard/mytools",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -19,4 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    install_requires=[
+        "requests"
+    ]
 )
