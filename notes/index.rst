@@ -12,6 +12,7 @@ Welcome to infosec's documentation!
 
    wireshark
    nmap
+   netcat
 
 
 Indices and tables
