@@ -7,12 +7,13 @@ Welcome to infosec's documentation!
 ===================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    wireshark
    nmap
    netcat
+   arp
 
 
 Indices and tables

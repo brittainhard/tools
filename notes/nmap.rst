@@ -1,4 +1,3 @@
-===============
 nmap and zenmap
 ===============
 
@@ -15,5 +14,11 @@ To get all devices, run::
 
 
 I'm not sure what happens if you try to do /16 when the subnet is /24, though.
+
+To see the results, use :ref:`arp`
+
+If you are doing this while looking at wireshark, you will see a massive flood of ARP requests. You should try this with your Kali box do you can see what its like from another computer.
+
+Also, zenmap kinda sucks. It's just a GUI way of doing that nmap is doing.
 
 see :ref:`On Capturing All Traffic`
